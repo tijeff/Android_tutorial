@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android_Tutorial</string>
+    <string name="full_screen">Passer en Plein écran</string>
+    <string name="not_full_screen">Sortir du Plein écran</string>
 </resources>

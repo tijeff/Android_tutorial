@@ -7,6 +7,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="fr.epitez.android_tutorial.MainActivity">
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/full_screen"
+        android:id="@+id/button"
+        android:onClick="onClick" />
 </RelativeLayout>
