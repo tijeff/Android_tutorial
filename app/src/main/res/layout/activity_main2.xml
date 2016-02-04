@@ -3,21 +3,20 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#ffffff"  >
+    android:background="#ffffff"
+    android:nestedScrollingEnabled="true">
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/holo_green_dark"
-        android:text="@string/first_activity"
-        android:shadowColor="@android:color/darker_gray" />
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="@string/second_activity" />
 
-    <Button android:text="@string/next"
-        android:id="@+id/Button01"
+    <Button android:text="@string/back"
+        android:id="@+id/Button02"
         android:layout_width="250dp"
         android:textSize="18sp"
-        android:layout_height="55dp"
-        android:onClick="onClick1">
+        android:layout_height="55dp">
     </Button>
 
 </LinearLayout>

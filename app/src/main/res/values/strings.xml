@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Android_Tutorial</string>
+    <string name="next">Suivant</string>
+    <string name="first_activity">Premiere activité</string>
+    <string name="back">Retour</string>
+    <string name="second_activity">Second activité</string>
 </resources>
